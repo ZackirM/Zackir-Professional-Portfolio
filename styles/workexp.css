@@ -1,0 +1,124 @@
+img.avatar {
+    width: 130px;
+  }
+  
+  .my-name {
+    font-size: 48px;
+    line-height: 1;
+  }
+  
+  .my-title {
+    font-size: 24px;
+    font-weight: 300;
+    color: #236FB2;
+  }
+  
+  .links {
+    display: flex;
+    margin: 10px 0 20px 0;
+  }
+  .links a:hover{
+      color: darkgoldenrod;
+  }
+  
+  .link-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .link-item svg {
+    margin-right: 6px;
+  }
+  
+  /***********************************
+  * =Experience
+  ***********************************/
+  
+  .job {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .job:last-child {
+    border-bottom: none;
+  }
+  
+  .job-title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .job-company {
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  /***********************************
+  * =Skills
+  ***********************************/
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .skills-container ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  /***********************************
+  * =Interests
+  ***********************************/
+  
+  .interests-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .interests-container img {
+    height: 35px;
+    opacity: 0.75;
+  }
+  
+  /***********************************
+  * =References
+  ***********************************/
+  
+  .reference {
+    font-size: 18px;
+  }
+  
+  .reference-details {
+    margin-bottom: 20px;
+  }
+  
+  @media only screen and (max-width : 768px) {
+    section {
+      grid-template-columns: 1fr;
+    }
+  
+    .links, .job-title-container {
+      flex-direction: column;
+    }
+  
+    .skills-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .interests-container {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+  
+    .interests-container img {
+      margin-right: 32px;
+      margin-bottom: 16px;
+    }
+  }
