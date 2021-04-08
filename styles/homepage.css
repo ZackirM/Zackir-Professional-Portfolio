@@ -1,0 +1,15 @@
+/*Homepage.css*/
+.page-container{
+    width: 100%;
+}
+
+.page-container > .content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:0px 50px 0px 50px;
+}
+
+.page-container > .content-wrapper > .image-wrapper img{
+    width: 60%;
+    margin-left: 100px;
+}
