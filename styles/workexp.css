@@ -78,7 +78,10 @@ img.avatar {
   .link-item svg {
     margin-right: 6px;
   }
-  
+  p {
+    color:black;
+
+  }
   /***********************************
   * =Experience
   ***********************************/
