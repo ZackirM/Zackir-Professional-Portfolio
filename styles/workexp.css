@@ -1,3 +1,6 @@
+body{
+  background-color:#d8d6d652;
+}
 img {
     max-width: 100%;
   }
@@ -58,12 +61,13 @@ img.avatar {
   .my-title {
     font-size: 24px;
     font-weight: 300;
-    color:gold;
+    color:grey;
   }
   
   .links {
     display: flex;
     margin: 10px 0 20px 0;
+    
   }
   .links a:hover{
       color: darkgoldenrod;
@@ -73,6 +77,10 @@ img.avatar {
     display: flex;
     align-items: center;
     flex: 1;
+  }
+
+  .link-item a{
+    color:#236FB2;
   }
   
   .link-item svg {
