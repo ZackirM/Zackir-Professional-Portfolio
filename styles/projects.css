@@ -1,3 +1,4 @@
+
 .nav-link-wrapper:hover {
   border-bottom: 1px solid black;
 }
@@ -8,13 +9,13 @@
 
 .portfolio-items-wrapper {
     padding-top: 80px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
 }
 
 .portfolio-item-wrapper {
-  position: relative;
+    position: relative;
 }
 
 .portfolio-img-background {
@@ -73,4 +74,3 @@
 
 .profile-content-wrapper h1 {
   color: lightseagreen;
-}
