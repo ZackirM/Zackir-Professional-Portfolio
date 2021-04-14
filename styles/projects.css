@@ -1,12 +1,4 @@
 
-.nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
-}
-
-.nav-link-wrapper a:hover {
-  color: black;
-}
-
 .portfolio-items-wrapper {
     padding-top: 80px;
     display: grid;
