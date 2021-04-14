@@ -1,15 +1,38 @@
-/*Homepage.css*/
+/*about page*/
 .page-container{
-    width: 100%;
+    padding: 40px 10px 10px 10px;
+    background-color: silver;
 }
 
 .page-container > .content-wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding:0px 50px 0px 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 50px;
+    
 }
 
 .page-container > .content-wrapper > .image-wrapper img{
-    width: 60%;
-    margin-left: 100px;
+    width: 120%;
+    
 }
+
+.page-container > .content-wrapper > .aboutme{
+    
+    width: 80%;
+}
+
+.page-container > .content-wrapper > .aboutme > .intro{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.page-container > .content-wrapper > .aboutme > .aboutme-text{
+    font-size: 1.2rem;
+    margin-top: 40px;
+    line-height: 2rem;
+}
+
+
