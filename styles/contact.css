@@ -1,11 +1,35 @@
-
-
-
-
-#email{
-    float: left;
+.contact-grid-wrapper{
+    width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
 }
 
-#subject{
-    float: right;
+.portfolio-metadata-sidebar-wrapper .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+    filter: brightness(10%);
+}
+
+.portfolio-metadata-sidebar-wrapper > .details-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.portfolio-metadata-sidebar-wrapper > .details-row > .portfolio-details-wrapper i{
+    text-decoration: none;
+    transition: all .4s;
+}
+
+.portfolio-metadata-sidebar-wrapper > .details-row > .portfolio-details-wrapper i:hover{
+    font-size: 3.5rem;
 }

@@ -7,26 +7,29 @@
     border-radius: 2px;
     outline: none;
     width: 550px;
-    transition: 0.5s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 .btn:hover{
     background-color: white;
-    border: 2px solid black;
     color:black;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
 }
 .btn:active{
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    color: black;
+}
+.centered-btn-wrapper:active{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
 }
 
-
-.btn-wrapper{
+.btn-wrapper, .centered-btn-wrapper{
     display: flex;
     justify-content: center;
-    height: 150px;
     
 }
+
+
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -42,11 +45,10 @@
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-    transition: ease .5s;
+    transition: ease .3s;
   }
   
   #myBtn:hover {
     background-color: rgb(255, 246, 246); /* Add a dark-grey background on hover */
-    border: 2px solid black;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
   }

@@ -144,6 +144,10 @@ img.avatar {
     opacity: 0.75;
   }
   
+  .interests-container i {
+    font-size: 2.5rem;
+    opacity: 0.75;
+  }
   /***********************************
   * =References
   ***********************************/

@@ -5,7 +5,6 @@
     <meta name="description" content="Zackir Metcalf">
     <meta name="keywords" content="UX, PW, content creator">
     <title>Zackir Metcalf's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -14,6 +13,8 @@
     <link rel="stylesheet" href="../styles/homepage.css">
     <link rel="stylesheet" href="../styles/contact.css">
     <link rel="stylesheet" href="../styles/helpers.css">
+    <link rel="stylesheet" href="../styles/buttons.css">
+    <link rel="stylesheet" href="../styles/form.css">
     <link rel="shortcut icon" href="../images/logos/Z.png" type="image/x-icon">
 </head>
 
@@ -88,31 +89,33 @@
             <div class="portfolio-metadata-sidebar-wrapper">
 
                 <div class="logo">
-                    <img src="../images/placeholder.png" width="20%" alt="image placeholder">
+                    <img src="../images/logos/Z.png" alt="image placeholder">
                 </div>
 
+                <div class="details-row">
                 <div class="portfolio-details-wrapper">
                     <a href="">
-                        <i></i>
+                        <i class="fab fa-linkedin" style="color: #0072b1;"></i>
                     </a>
                 </div>
 
                 <div class="portfolio-details-wrapper">
                     <a href="">
-                        <i></i>
+                        <i class="fab fa-github" style="color: #f4cbb2;"></i>
                     </a>
                 </div>
 
                 <div class="portfolio-details-wrapper">
                     <a href="">
-                        <i></i>
+                        <i class="fab fa-twitter-square" style="color: #00acee;"></i>
                     </a>
+                </div>
                 </div>
             </div>
 
             <form action="" class="form">
                 <div class="row">
-                    <h1>Contact Me</h1>
+                    <h1>Let's Talk</h1>
                 </div>
 
                 <div class="row">
@@ -126,22 +129,22 @@
                     <label for="fullName">Full Name</label>
                     </div>
                 </div>
-                
+                <div class="two-grid">
                 <div class="form-group">
-                    <div class="wide-input">
+                    <div class="left-short-input">
                     <input type="email" id="email" placeholder="Email" required>
                     <label for="email">Email</label>
                     </div>
                 </div>
 
-                <div class="form-group" id="wide-input">
-                    <div class="wide-input">
+                <div class="form-group">
+                    <div class="right-short-input">
                     <input type="text" id="subject" placeholder="Subject" required>
-                    <label for="Subject">Subject</label>
+                    <label for="subject">Subject</label>
                     </div>
                 </div>
-                
-                <div class="form-group" id="wide-input">
+                </div>
+                <div class="form-group">
                     <div class="wide-input">
                     <textarea name="message" id="message" placeholder="Message" required></textarea>
                     <label for="message">Message</label>
@@ -149,14 +152,14 @@
                 </div>
                 <div class="spacer10"></div>
                 
-                <div class="centered-btn-wrapper">
+                <div class="centered-btn-wrapper" width="20px">
                     <button type="submit" class="btn">Send</button>
                 </div>
             </form>
         </div>
     </div>
 <!--Content End--> 
-
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
 <!--Navigation Footer Start-->
    <!--
     <footer class="footer-wrapper">
@@ -166,8 +169,8 @@
     </footer>
     -->
 <!--Navigation Footer End--> 
-    <script src="main.js"></script>
     <script src="../scripts/nav.js"></script>
+    <script src="../scripts/common.js"></script>
 </body>
 
 </html>
