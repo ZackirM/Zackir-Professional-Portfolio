@@ -5,7 +5,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.87)) , url(../images/car.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.8)) , url(../images/car.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -34,13 +34,13 @@ body, html {
   position: absolute;
   font-size: 2rem;
   bottom: 0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 /* LinkedIn */
 
 #linkedin{
   color: white;
-  transition: .5s ease;
+  transition: .3s ease;
 }
 #linkedin:hover{
   font-size: 3rem;
@@ -48,10 +48,9 @@ body, html {
 }
 
 .linkedin{
-  transition: .5s ease;
+  transition: .3s ease;
 }
 .linkedin:hover{
-  font-size: 1.1rem;
   color: rgb(14, 118, 168);
 }
 
@@ -71,7 +70,6 @@ body, html {
   transition: .5s ease;
 }
 .handshake:hover{
-  font-size: 1.1rem;
   color:tomato;
 }
 /* Instagram */
@@ -84,11 +82,19 @@ body, html {
   font-size: 3rem;
   display: block;
   color: #d6249f;
-  -webkit-text-fill-color: none;
+}
+
+.instagram{
+  color: white;
+  transition: .5s ease;
+}
+
+.instagram:hover{
+  color: #d6249f;
 }
 .middle {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -100,6 +106,16 @@ body, html {
   color: white;
 }
 
+.id{
+  font-size: 4rem;
+}
+
+.title{
+
+}
+.text{
+  font-size: .8rem;
+}
 
 hr {
   margin: auto;
