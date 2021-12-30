@@ -22,6 +22,7 @@ body, html {
 
 .bottomleft {
   position: absolute;
+  color: white;
   bottom: 0;
   justify-content: right;
 }
