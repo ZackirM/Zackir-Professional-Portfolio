@@ -36,7 +36,7 @@ body, html {
   bottom: 0;
   margin-bottom: 50px;
 }
-
+/* LinkedIn */
 
 #linkedin{
   color: white;
@@ -47,6 +47,16 @@ body, html {
   color: rgb(14, 118, 168);
 }
 
+.linkedin{
+  transition: .5s ease;
+}
+.linkedin:hover{
+  font-size: 1.1rem;
+  color: rgb(14, 118, 168);
+}
+
+/* HandShake */
+
 #handshake{
   color: white;
   transition: .5s ease;
@@ -55,10 +65,21 @@ body, html {
   font-size: 3rem;
   color:tomato;
 }
+
+.handshake{
+  color: white;
+  transition: .5s ease;
+}
+.handshake:hover{
+  font-size: 1.1rem;
+  color:tomato;
+}
+/* Instagram */
 #instagram{
   color: white;
   transition: .5s ease;
 }
+
 #instagram:hover{
   font-size: 3rem;
   display: block;
