@@ -1,32 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200;1,300&display=swap');
 body, html {
   height: 100%;
   margin: 0;
 }
 
 .bgimg {
-  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.8)) , url(../images/car.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.87)) , url(../images/car.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
   color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topleft {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  font-size: 4rem;
+  top: 30px;
+  left: 30px;
 }
 
-.bottomleft {
-  position: absolute;
+.topleft a{
   color: white;
-  bottom: 0;
-  justify-content: right;
 }
 
+.bottom {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 2rem;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+
+#linkedin{
+  color: white;
+  transition: .5s ease;
+}
+#linkedin:hover{
+  font-size: 3rem;
+  color: rgb(14, 118, 168);
+}
+
+#handshake{
+  color: white;
+  transition: .5s ease;
+}
+#handshake:hover{
+  font-size: 3rem;
+  color:tomato;
+}
+#instagram{
+  color: white;
+  transition: .5s ease;
+}
+#instagram:hover{
+  font-size: 3rem;
+  display: block;
+  color: #d6249f;
+  -webkit-text-fill-color: none;
+}
 .middle {
   position: absolute;
   top: 50%;
@@ -40,7 +78,9 @@ body, html {
   text-decoration: none;
   color: white;
 }
+
+
 hr {
   margin: auto;
-  width: 40%;
+  width: 70%;
 }
