@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.8)) , url(../images/car.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  justify-content: right;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.middle a{
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+}
+hr {
+  margin: auto;
+  width: 40%;
+}
