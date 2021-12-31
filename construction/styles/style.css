@@ -16,9 +16,11 @@ body, html {
 
 .topleft {
   position: absolute;
-  font-size: 4rem;
-  top: 30px;
-  left: 30px;
+  top: 15px;
+  left: 15px;
+}
+.topleft img{
+height: 70px;
 }
 
 .topleft a{
