@@ -20,11 +20,13 @@ body, html {
   left: 15px;
 }
 .topleft img{
-height: 70px;
+  width: 5%;
+  
 }
 
-.topleft a{
-  color: white;
+.topleft img:hover{
+  border: inherit;
+  border: 1px solid white;
 }
 
 .bottom {
@@ -112,9 +114,7 @@ height: 70px;
   font-size: 4rem;
 }
 
-.title{
 
-}
 .text{
   font-size: .8rem;
 }
@@ -122,4 +122,20 @@ height: 70px;
 hr {
   margin: auto;
   width: 70%;
+}
+
+.footer{
+  width: 100%;
+  font-size: .6rem;
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  line-height: 6px;
+  margin-bottom: 10px;;
+}
+
+.footer > .footer-message{
+  font-weight: bold;
 }
