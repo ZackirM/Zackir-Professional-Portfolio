@@ -5,7 +5,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.8)) , url(../images/car.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.5)) , url(../images/car.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -28,7 +28,9 @@ body, html {
   border: inherit;
   border: 1px solid white;
 }
-
+.time {
+  margin: 20px;
+}
 .bottom {
   width: 100%;
   display: flex;
